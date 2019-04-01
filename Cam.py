@@ -10,6 +10,7 @@ plt.close('all')
 
 def show_webcam():
     cam = cv2.VideoCapture(0)
+    #Para utilizar una web cam en laptop, descomentar la linea siguiente
     #cv2.namedWindow("WebCam",1)
     while True:
         ret_val, img1 = cam.read()
